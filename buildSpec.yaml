@@ -3,15 +3,15 @@ version: 0.2
 phases:
     install:
         runtime-versions:
-        python: 3.7
-            commands:
-                - echo install2
-        pre_build:
-            commands:
-                - echo pre-build2
-        build:
-            commands:
-                - echo build2
-        post_build:
-            commands:
-                - echo post-build2
+            python: 3.7
+                commands:
+                    - echo install3
+            pre_build:
+                commands:
+                    - echo pre-build3
+            build:
+                commands:
+                    - echo build3
+            post_build:
+                commands:
+                    - echo post-build3
